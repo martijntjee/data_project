@@ -44,4 +44,4 @@ with open("vacatures.csv", "w", newline="", encoding="utf-8") as f:
             vacature.get("created")
         ])
 
-print(f"{len(vacatures)} vacatures opgeslagen in vacatures.csv")
+print(f"{len(vacatures)} vacatures opgeslagen in vacatures.csv") 
